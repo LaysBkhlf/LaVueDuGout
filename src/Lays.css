@@ -8,12 +8,12 @@ html,body{
 }
 .App{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /*horizontal*/
     width: 100%;
 }
 .menu {
     background-color: aquamarine;
-    align-items: center;
+    align-items: center; /*vertical*/
     display: flex;
    
 
