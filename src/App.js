@@ -564,7 +564,7 @@ net.train([
     }
   }
 
-   {
+   { //pate au pesto à refaire
     input: {
       Tomate: 0,
       Oignons: 0, 
