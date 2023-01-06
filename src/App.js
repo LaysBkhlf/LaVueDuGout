@@ -21,6 +21,9 @@ const Element = styled.div`
   }
 `;*/
 
+
+
+/*// Répertorier tout les plats
 const MealSelector = () => {
 const [state, setState] = React.useState({
 meals: [
@@ -28,7 +31,8 @@ meals: [
 { name: "Steak frites", price: 15, image: "/steak.jpg", type: "français" },
 { name: "Salade César", price: 8, image: "/salad.jpg", type: "français" },
 { name: "Sushi", price: 12, image: "/sushi.jpg", type: "japonais" },
-{ name: "Pad Thai", price: 10, image: "/padthai.jpg", type: "thaïlandais" },
+{ name: "Pad Thai", price: 10, image: "/padthai.jpg", type: "thaïlandais", ingredient: ["tomate", "riz", "oeuf"] },
+{ name: "Ramen", price: 5, type:"japonais"}
 ],
 selectedType: "",
 selectedPrice: "",
@@ -102,6 +106,188 @@ onChange={(e) => handlePriceChange(e)}
 );
 };
 
-export default MealSelector;
+export default MealSelector;*/
+
+import * as brain from "brain.js";
+
+var net = new brain.NeuralNetwork();
+
+net.train([
+  {
+    input: {
+      Tomate: 0,
+      Oignons: 0, 
+      Carottes: 0,
+      Crevette: 0,
+      Champignons: 0,
+      Petitpois: 0,
+      Oeuf: 0,
+      Boeuf: 0,
+      Maïs: 0,
+      Tofu: 0,
+      Basilic: 0,
+      Poulet: 0,
+      Celeri: 0,
+      BokChoy: 0, 
+      Saucisse: 0,
+      Épinard: 0,
+      Fromage: 0,
+      Mozza: 0,
+      Parmesan: 0, 
+      Pommedeterre: 0,
+      Vinblanc: 0,
+      Broccolis: 0, 
+      Ail: 0,
+      Tortillas: 0,
+      Nouilles: 0,
+      Pâtes: 0,
+      Courgette: 0,
+      Poivrons: 0,
+      Riz: 0,
+      Tortillas: 0,
+      Udon: 0
+    },
+    output: {
+      phoe: 1,
+      lasagne: 0,
+      ramen: 0.5,
+      spaghettiVeggie: 0,
+      nouillewok: 0,
+      rizcantonais: 0,
+      padthaiVeggie: 0,
+      patepesto: 0,
+      udonpoulet: 0,
+      jambalaya: 0,
+      lomeinboeuf: 0,
+      rizsaucisse: 0,
+      enchiladas: 0,
+      pouletrotis: 0,
+      quichepoulet: 0,
+      tacosboeuf: 0,
+      tourtepoulet: 0,
+      pateboeuf: 0,
+      fajitas: 0,
+
+    }
+  },
+  {
+    input: {
+      Tomate: 0,
+      Oignons: 0, 
+      Carottes: 0,
+      Crevette: 0,
+      Champignons: 0,
+      Petitpois: 0,
+      Oeuf: 0,
+      Boeuf: 0,
+      Maïs: 0,
+      Tofu: 0,
+      Basilic: 0,
+      Poulet: 0,
+      Celeri: 0,
+      BokChoy: 0, 
+      Saucisse: 0,
+      Épinard: 0,
+      Fromage: 0,
+      Mozza: 0,
+      Parmesan: 0, 
+      Pommedeterre: 0,
+      Vinblanc: 0,
+      Broccolis: 0, 
+      Ail: 0,
+      Tortillas: 0,
+      Nouilles: 0,
+      Pâtes: 0,
+      Courgette: 0,
+      Poivrons: 0,
+      Riz: 0,
+      Tortillas: 0,
+      Udon: 0
+    },
+    output: {
+      phoe: 0,
+      lasagne: 1,
+      ramen: 0.3,
+      spaghettiVeggie: 0,
+      nouillewok: 0,
+      rizcantonais: 0,
+      padthaiVeggie: 0,
+      patepesto: 0,
+      udonpoulet: 0,
+      jambalaya: 0,
+      lomeinboeuf: 0,
+      rizsaucisse: 0,
+      enchiladas: 0,
+      pouletrotis: 0,
+      quichepoulet: 0,
+      tacosboeuf: 0,
+      tourtepoulet: 0,
+      pateboeuf: 0,
+      fajitas: 0,
+    }
+  },
+  {
+    input: {
+      Tomate: 0,
+      Oignons: 0, 
+      Carottes: 0,
+      Crevette: 0,
+      Champignons: 0,
+      Petitpois: 0,
+      Oeuf: 0,
+      Boeuf: 0,
+      Maïs: 0,
+      Tofu: 0,
+      Basilic: 0,
+      Poulet: 0,
+      Celeri: 0,
+      BokChoy: 0, 
+      Saucisse: 0,
+      Épinard: 0,
+      Fromage: 0,
+      Mozza: 0,
+      Parmesan: 0, 
+      Pommedeterre: 0,
+      Vinblanc: 0,
+      Broccolis: 0, 
+      Ail: 0,
+      Tortillas: 0,
+      Nouilles: 0,
+      Pâtes: 0,
+      Courgette: 0,
+      Poivrons: 0,
+      Riz: 0,
+      Tortillas: 0,
+      Udon: 0
+    },
+    output: {
+      phoe: 0.5,
+      lasagne: 0.99,
+      ramen: 0.99,
+      spaghettiVeggie: 0,
+      nouillewok: 0,
+      rizcantonais: 0,
+      padthaiVeggie: 0,
+      patepesto: 0,
+      udonpoulet: 0,
+      jambalaya: 0,
+      lomeinboeuf: 0,
+      rizsaucisse: 0,
+      enchiladas: 0,
+      pouletrotis: 0,
+      quichepoulet: 0,
+      tacosboeuf: 0,
+      tourtepoulet: 0,
+      pateboeuf: 0,
+      fajitas: 0,
+    }
+  }
+]);
+
+var output = net.run({
+  poulet: 1,
+  bannane: 1,
+  radis: 0
+});
 
 //export default App;
