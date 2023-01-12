@@ -12,9 +12,14 @@ html,body{
     width: 100%;
 }
 .menu {
-    background-color: aquamarine;
+    /*background-color: aquamarine;
     align-items: center; /*vertical*/
-    display: flex;
+    /*display: flex;*/
+    position: absolute;
+    width: 552px;
+    height: 67.16px;
+    left: 684px;
+    top: 29px;
 
 }
 
