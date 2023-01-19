@@ -7,16 +7,17 @@ function Nav() {
         <div className="App">
             <div className="menu">
                 <a href='http://localhost:3000/'>EXPÉRIENCE</a>
-                <img src="LVDG.jpg" alt="logoLVDG"/>
+                <img className='logo' src="LVDG.png" alt="logoLVDG"/>
                 <a href='http://localhost:3000/'>CONTACT</a>
             </div>
-                <div className='sign'>
-                    <a href='http://localhost:3000/'>Connexion</a>
-                    <button>Inscription</button>
-                </div>
         </div>
     </nav>
   );
 }
 
 export default Nav;
+
+/*  <div className='sign'>
+                    <a href='http://localhost:3000/'>Connexion</a>
+                    <button>Inscription</button>
+                </div>*/
