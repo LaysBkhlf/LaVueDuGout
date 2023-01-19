@@ -5,7 +5,7 @@ import Home from './Home.js';
 
 function App() {
   const [Shape,setShape] = React.useState(0)
-  const [Color,setColor] = React.useState(0)
+  const [Color,setColor] = React.useState("blue")
   const [Glow,setGlow] = React.useState(0)
   const[ModifPage,setModifPage] = React.useState("App");
 
@@ -30,6 +30,11 @@ function App() {
           <h3>Glow</h3>
           <div class="slidecontainer">
             <input onChange={(e)=>setGlow(e.target.value)} value={Glow} type="range" min="1" max="100" className="slider" />
+          </div>
+          <div style={{backgroundColor:'black',width: "500px",height:"300px",borderRadius:Shape,display: "flex",justifyContent:"center",alignItems:"center"}}>
+            <div style={{backgroundColor:Color,width: "100px",height:"200px",borderRadius:Shape+"px"}}>
+
+            </div>
           </div>
           <br></br>
           <br></br>

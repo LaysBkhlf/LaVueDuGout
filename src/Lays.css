@@ -58,6 +58,7 @@ a{
 .accueil{
     background: no-repeat url(/public/Frame52.jpg);
     height: 100vh;
+    background-size: cover;
 }
 button{
     margin-left: 5%;
@@ -124,6 +125,20 @@ button{
     padding: 4px 0px 0px 0px;
 
 }
+@media only screen and (max-width: 1400px) {
+   .valider {
+    width: 100px;
+    height: 40px;
+   }
+   .slidecontainer{
+    width: 100px;
+    height: 40px;
+   }   
+   .blocD{
+    width: 100px;
+    height: 40px;
+   }
+  }
 .slidecontainer {
     width: 100%;
   }
