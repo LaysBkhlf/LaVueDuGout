@@ -38,7 +38,7 @@ function App() {
           </div>
           <br></br>
           <br></br>
-        <button className='gen'>Génération aléatoire</button>
+        <button className='gen'>GÉNÉRATION ALÉATOIRE</button>
       </section>
       <section className='blocD'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -52,7 +52,7 @@ function App() {
           tortor, molestie ac efficitur in, ornare sed massa. 
           Etiam sagittis aliquam nibh, in facilisis tortor laoreet.</p>
         
-        <button className='valider'>Valider</button>
+        <button className='valider'>VALIDER</button>
 
       </section>
       </div>
