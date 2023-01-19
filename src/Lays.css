@@ -72,9 +72,15 @@ button{
     width: 100%;
     display: flex;
 } */
+.Carte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8%;
+}
 .blocG{
     margin-left: 8%;
-    margin-top: 10%;
+    margin-top: 8%;
     padding: 10px 40px 60px 40px;
     background-color: rgba(236, 236, 234, 0.082);
     border-radius: 8px;
@@ -86,21 +92,35 @@ button{
     align-items: flex-start;
     justify-content: center;
 }
-.Carte{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 8%;
-}
 
 .blocD{
     text-align: end;
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     width: 20%;
     padding: 2%;
-    margin-top: 8%;
     align-items: flex-end;
+}
+.ticket{
+    display: flex;
+    position: relative;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.ticketbord{
+    position: absolute;
+    left:100%;
+    top: 0.5%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 99%;
+    background: rgb(199, 199, 199);
+    border-radius: 8px 0px 0px 8px;
 }
 .gen{
     width: 241px;
@@ -143,7 +163,6 @@ button{
     width: 100%;
   }
 .slider {
-    -webkit-appearance: none;
     width: 100%;
     height: 7px;
     border-radius: 8px;  

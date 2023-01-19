@@ -31,15 +31,19 @@ function App() {
           <div class="slidecontainer">
             <input onChange={(e)=>setGlow(e.target.value)} value={Glow} type="range" min="1" max="100" className="slider" />
           </div>
-          <div style={{backgroundColor:'black',width: "500px",height:"300px",borderRadius:Shape,display: "flex",justifyContent:"center",alignItems:"center"}}>
-            <div style={{backgroundColor:Color,width: "100px",height:"200px",borderRadius:Shape+"px"}}>
-
-            </div>
-          </div>
           <br></br>
           <br></br>
         <button className='gen'>GÉNÉRATION ALÉATOIRE</button>
       </section>
+          <div className='ticket' style={{ width: "460px",height:"200px",borderRadius:Shape, marginRight: "0px" ,display: "flex"}}>
+            
+            <div className='container'>
+              <div style={{backgroundColor:Color,width: "20px",height:"198px",borderRadius:Shape+"px",margin: "0px 10px"}}>           
+            </div>
+            <img className='ticketbord' src='/Tickets-Mockup.png'></img>
+            </div>
+            
+          </div>
       <section className='blocD'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Aenean pharetra sem at massa scelerisque hendrerit quis eu 

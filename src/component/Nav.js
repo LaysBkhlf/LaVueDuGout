@@ -8,7 +8,7 @@ function Nav() {
             <div className="menu">
                 <a href='http://localhost:3000/'>EXPÉRIENCE</a>
                 <img className='logo' src="LVDG.png" alt="logoLVDG"/>
-                <a href='http://localhost:3000/'>CONTACT</a>
+                <a href='./src/contact.js'>CONTACT</a>
             </div>
         </div>
     </nav>
