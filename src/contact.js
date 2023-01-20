@@ -2,20 +2,24 @@ import React from 'react';
 import './Lays.css';
 import Nav from './component/Nav.js';
 import Home from './Home.js';
+import App from './App.js';
 
-function App() {
-    const[ModifPage,setModifPage] = React.useState("App");
+// function Contact() {
+    
+    const Contact= ({setModifPage,ModifPage}) => {
+    // React.useState("Contact");
   
-
     return (
         <div>
         <Nav></Nav>
+        {ModifPage === "Home" && <Home setModifPage={setModifPage}></Home>}
+            
             <div>
                 <h2>Nous contacter</h2>
                 <p>remplissez ce formulaire de contact, nous vous répondrons au plus vite</p>
                 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
             <div class="row">
-                <label class="required" for="name">Votre Nom:</label><br />
+                <label class="required" for="name">Votre Nom:</label><br/>
                 <input id="nom" class="input" name="nom" type="text" value="" size="30" placeholder='Votre Nom' /><br />
                 <span id="name_validation" class="error_message"></span>
             </div>
@@ -41,7 +45,7 @@ function App() {
             </div>
             </div>
         );
-    }
+    };
     
-    export default App  
+    export default Contact;
     

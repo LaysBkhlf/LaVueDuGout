@@ -2,19 +2,22 @@ import React from 'react';
 import './Lays.css';
 import Nav from './component/Nav.js';
 import Home from './Home.js';
+import Contact from './Contact.js';
 
 function App() {
   const [Shape,setShape] = React.useState(0)
   const [Color,setColor] = React.useState("blue")
   const [Glow,setGlow] = React.useState(0)
-  const[ModifPage,setModifPage] = React.useState("App");
+  const [ModifPage,setModifPage] = React.useState("App");
 
   return (
    
     <div className='accueil'>
       
-      <Nav></Nav>
+      <Nav setModifPage={setModifPage}></Nav>
         {ModifPage === "Home" && <Home setModifPage={setModifPage}></Home>}
+        {ModifPage === "Contact" && <Contact setModifPage={setModifPage}></Contact>}
+
        
       <div className='Carte'>
       <section className='blocG'>

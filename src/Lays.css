@@ -112,12 +112,12 @@ button{
 }
 .ticketbord{
     position: absolute;
-    left:100%;
+    left:95%;
     top: 0.5%;
     height: 100%;
 }
 .container{
-    width: 100%;
+    width: 90%;
     height: 99%;
     background: rgb(199, 199, 199);
     border-radius: 8px 0px 0px 8px;

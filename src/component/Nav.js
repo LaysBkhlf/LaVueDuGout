@@ -1,14 +1,16 @@
 import React from 'react';
 
 
-function Nav() {
+function Nav({setModifPage}) {
+    
   return (
     <nav>
         <div className="App">
             <div className="menu">
                 <a href='http://localhost:3000/'>EXPÉRIENCE</a>
                 <img className='logo' src="LVDG.png" alt="logoLVDG"/>
-                <a href='./src/contact.js'>CONTACT</a>
+                <h1 onClick={() => setModifPage("Contact")}>Contact
+        </h1>
             </div>
         </div>
     </nav>
