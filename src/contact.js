@@ -1,20 +1,12 @@
 import React from 'react';
 import './Lays.css';
 import Nav from './component/Nav.js';
-// import Home from './Home.js';
-
-
-// function Contact() {
     
     const Contact= ({setModifPage,ModifPage}) => {
-    // React.useState("Contact");
   
     return (
-        <div>
-        <Nav></Nav>
-        {/* {ModifPage === "Home" && <Home setModifPage={setModifPage}></Home>} */}
-            
-            <div className='form'>
+        <div className='backform'>
+            <div className='formulaire'>
                 <h2>Nous contacter</h2>
                 <p>remplissez ce formulaire de contact, nous vous répondrons au plus vite</p>
                 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
