@@ -1,14 +1,13 @@
 import React from 'react';
 import './Lays.css';
-// import Nav from './component/Nav.js';
+import Nav from './component/Nav.js';
 // import Contact from './Contact.js';
-
-// import Nav from './component/Nav.js';
 // import App from './App.js';
+
 function Home({setModifPage}){ 
   const [Shape,setShape] = React.useState(0);
   const [Color,setColor] = React.useState("blue");
-  const [Width,setWidth] = React.useState(0);
+  const [Width,setWidth] = React.useState(80);
   const [Radius,setRadius] = React.useState(0);
 
   // const [ModifPage,setModifPage] = React.useState("App");
@@ -21,7 +20,7 @@ function Home({setModifPage}){
   }
   return(
           <section>
-              {/* <Nav></Nav>  */}
+              <Nav></Nav> 
               <div className='accueil'>
      
     <div className='Carte'>
