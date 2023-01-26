@@ -7,11 +7,13 @@ import Contact from './Contact.js';
 function App() {
       const [Shape,setShape] = React.useState(0);
       const [Color,setColor] = React.useState("blue");
-      const [Glow,setGlow] = React.useState(0);
+      const [Width,setWidth] = React.useState(0);
+      const [Radius,setRadius] = React.useState(0);
+
       const [ModifPage,setModifPage] = React.useState("App");
 
   return (
-   <section>
+   <section className='accueil'>
     <Nav setModifPage={setModifPage}></Nav>
     {ModifPage === "Home" && <Home setModifPage={setModifPage}></Home>}
     {ModifPage === "Contact" && <Contact setModifPage={setModifPage}></Contact>}
