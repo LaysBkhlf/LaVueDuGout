@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html,body{
     width: 100%;
     height: 100%;
@@ -7,7 +11,7 @@ h1{
     font-size: 40px;
     color: white;
     font-weight: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 h2{
@@ -22,6 +26,7 @@ h3{
     font-size: 32px;
     color: white;
     margin-bottom: 0px;
+    padding-top: 5%;
 }
 p{
     font-family: rahem;
@@ -35,16 +40,17 @@ p{
 
 .menu {
     display: flex;
-    position: absolute; 
+    position: absolute;
     width: 100vw;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     margin-top: -3%;
-} 
+    /* padding: auto; */
+}
 
 .sign {
     background-color: aquamarine;
-    display: flex;    
+    display: flex;
     margin-left: 10%;
 }
 
@@ -143,7 +149,8 @@ button{
     font-family: rahem;
     text-align: center;
     padding: 4px 0px 0px 0px;
-    cursor: pointer; 
+    cursor: pointer;
+    margin-top: 5%;
 }
 .send{
     width: 121px;
@@ -166,7 +173,7 @@ button{
    .slidecontainer{
     width: 100px;
     height: 40px;
-   }   
+   }
    .blocD{
     width: 100px;
     height: 40px;
@@ -178,7 +185,7 @@ button{
 .slider {
     width: 100%;
     height: 7px;
-    border-radius: 8px;  
+    border-radius: 8px;
     background: #ffffff;
     outline: none;
     opacity: 0.9;
@@ -189,7 +196,7 @@ button{
     appearance: none;
     width: 20px;
     height: 20px;
-    border-radius: 50%; 
+    border-radius: 50%;
     background: #ffffff;
     cursor: pointer;
     box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
@@ -207,7 +214,7 @@ button{
     /* background: rgb(199, 199, 199);
     border-radius: 8px; */
     background-color: rgba(236, 236, 234, 0.15);
-    border-radius: 8px; 
+    border-radius: 8px;
     box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.5);
     padding-bottom: 4%;
 }
@@ -217,13 +224,27 @@ button{
     height: 100vH;
     display: flex;
     justify-content: center;
-} 
+}
 
 /*PAGE CHOIX*/
 
 .pagechoix{
     background: no-repeat url(/public/Frame52.jpg);
     background-size: cover;
-    height: 92vH;
-    width: 100vw;
+    height: 100vH;
+    /* width: 100vw; */
+}
+.carre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+    /* height: 30%; */
+
+}
+.casechoix{
+    background-color: rgba(236, 236, 234, 0.15);
+    border-radius: 8px;
+    box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.5);
+    padding: 2% 4%;
 }
