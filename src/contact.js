@@ -31,8 +31,7 @@ import Home from './Home.js';
                 <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder='Votre message'></textarea><br />
                 <span id="message_validation" class="error_message"></span>
             </div>
-    
-                <input id="submit_button" type="submit" value="Send email" />
+                <input id="submit_button" type="submit" value="Envoyer" className='send' />
             </form>
 
             </div>
