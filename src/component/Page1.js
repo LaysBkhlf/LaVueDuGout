@@ -77,6 +77,7 @@ const Page1 = () => {
       {Left && <button onClick={() => Next(Left)}>{Left}</button>}
       {Right && <button onClick={() => Next(Right)}>{Right}</button>}
       {CurrentIndex === 0 && <h1>TESDTDEJECEJKFHE</h1>}
+      {CurrentIndex === 1 && <h1>U</h1>}
     </div>
   );
 };
