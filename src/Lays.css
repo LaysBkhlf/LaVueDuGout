@@ -14,8 +14,8 @@ h2{
     font-family: rahem;
     font-size: 40px;
     color: white;
-    margin-top: 32px;
-    margin-bottom: 0px;
+    margin-top: 6%;
+    margin-bottom: 0%;
 }
 h3{
     font-family: rahem;
@@ -32,12 +32,7 @@ p{
 .pouce{
     background-color: rgb(33, 152, 63);
 }
-/* .App{
-    display: flex;
-     justify-content: space-between;  
-     width: 100%;  
-    width: 100%;
-}  */
+
 .menu {
     display: flex;
     position: absolute; 
@@ -60,8 +55,6 @@ a{
     font-size: 5px;
     color: white;
     font-size: 2em;
-    padding: 20px, 10px;
-    /* margin: auto; */
 }
 
 .accueil{
@@ -151,15 +144,17 @@ button{
     padding: 4px 0px 0px 0px;
 }
 .send{
-    width: 217px;
-    height: 70px;
+    width: 121px;
+    height: 50px;
     border-radius: 10px;
     border-color: #030BF6;
     color: #030BF6;
     background-color: #E2E2E2;
-    font-size: 32px;
+    font-size: 24px;
     font-family: rahem;
     padding: 4px 0px 0px 0px;
+    margin-left: 25%;
+    margin-top: 4%;
 }
 @media only screen and (max-width: 1400px) {
    .valider {
@@ -212,7 +207,7 @@ button{
     background-color: rgba(236, 236, 234, 0.15);
     border-radius: 8px; 
     box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.5);
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
  .backform{
     background: no-repeat url(/public/contactfond.png);
@@ -221,3 +216,4 @@ button{
     display: flex;
     justify-content: center;
 } 
+
