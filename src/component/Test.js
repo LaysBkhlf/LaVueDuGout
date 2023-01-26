@@ -3,9 +3,7 @@ import '../Lays.css';
 // import Nav from './Nav.js';
 // import Contact from '../Contact.js';
 
-
-
-const Test = ({})=>{
+const Test = ({setModifPage})=>{
 
 const [Shape,setShape] = React.useState(0);
 const [Color,setColor] = React.useState("blue");
@@ -84,8 +82,10 @@ function generateRandomValues() {
           Une fois vos préférences selectionné, notre système générera un plats adaptés à vos goûts, 
           avec des recettes détaillées et les ingrédients nécessaires. Vous pouvez également commander 
           une livraison pour vous régaler.</p>
-        
-        <button className='valider'>VALIDER</button>
+      
+        {/* <button className='valider' onClick={() => window.location.href='/choix.js'}>VALIDER</button> */}
+        <a className='valider' onClick={() => setModifPage("Choix")}>Valider</a>
+
 
       </section>
       </div>

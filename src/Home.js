@@ -2,8 +2,8 @@ import React from 'react';
 import './Lays.css';
 import Nav from './component/Nav.js';
 import Contact from './Contact.js';
-
 import Test from './component/Test.js';
+import Choix from './Choix.js';
 
 
 function Home(){ 
@@ -21,8 +21,8 @@ function Home(){
 
     {ModifPage === "Home" && <Test setModifPage={setModifPage}></Test>}
     {ModifPage === "Contact" && <Contact setModifPage={setModifPage}></Contact>}
-    
-       
+    {ModifPage === "Choix" && <Choix setModifPage={setModifPage}></Choix>}
+
       </section>
 
   )

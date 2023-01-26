@@ -7,7 +7,7 @@ h1{
     font-size: 40px;
     color: white;
     font-weight: none;
-    /* cursor: ; */
+    cursor: pointer; 
 }
 
 h2{
@@ -134,14 +134,16 @@ button{
 }
 .valider{
     width: 217px;
-    height: 70px;
+    /* height: 70px; */
     border-radius: 10px;
-    border-color: #030BF6;
+    border: solid #030BF6;
     color: #030BF6;
     background-color: #E2E2E2;
     font-size: 32px;
     font-family: rahem;
+    text-align: center;
     padding: 4px 0px 0px 0px;
+    cursor: pointer; 
 }
 .send{
     width: 121px;
@@ -209,7 +211,7 @@ button{
     box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.5);
     padding-bottom: 4%;
 }
- .backform{
+.backform{
     background: no-repeat url(/public/contactfond.png);
     background-size: cover;
     height: 100vH;
@@ -217,3 +219,11 @@ button{
     justify-content: center;
 } 
 
+/*PAGE CHOIX*/
+
+.pagechoix{
+    background: no-repeat url(/public/Frame52.jpg);
+    background-size: cover;
+    height: 92vH;
+    width: 100vw;
+}
