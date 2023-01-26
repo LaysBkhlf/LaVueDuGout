@@ -1,4 +1,3 @@
-
 import * as brain from "brain.js";
 
 var net = new brain.NeuralNetwork();
@@ -39,7 +38,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0.2,
+      pho: 0.2,
       lasagne: 0.4,
       ramen: 0,
       spaghettiVeggie: 0.2,
@@ -59,7 +58,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 1,
     }
-  }
+  },
 
   {
     input: {
@@ -96,7 +95,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 1,
+      pho: 1,
       lasagne: 0.2,
       ramen: 0.2,
       spaghettiVeggie: 0,
@@ -116,7 +115,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0.2,
     }
-  }
+  },
   {
     input: {
       Tomate: 1,
@@ -152,7 +151,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0.2,
+      pho: 0.2,
       lasagne: 1,
       ramen: 0,
       spaghettiVeggie: 0,
@@ -172,7 +171,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0.4,
     }
-  }
+  },
 
   {
     input: {
@@ -209,7 +208,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0.2,
+      pho: 0.2,
       lasagne: 0,
       ramen: 1,
       spaghettiVeggie: 0,
@@ -229,7 +228,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
    {
     input: {
       Tomate: 1,
@@ -265,7 +264,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0,
       spaghettiVeggie: 1,
@@ -285,7 +284,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
    {
     input: {
       Tomate: 0,
@@ -321,7 +320,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0.2,
       spaghettiVeggie: 0,
@@ -341,7 +340,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
    {
     input: {
       Tomate: 0,
@@ -377,7 +376,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0.2,
       spaghettiVeggie: 0,
@@ -397,7 +396,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
    {
     input: {
       Tomate: 0,
@@ -433,7 +432,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0.2,
+      pho: 0.2,
       lasagne: 0,
       ramen: 0.2,
       spaghettiVeggie: 0,
@@ -453,7 +452,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
 
    { //pate au pesto à refaire
     input: {
@@ -490,7 +489,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0,
       spaghettiVeggie: 0,
@@ -510,7 +509,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
    {
     input: {
       Tomate: 0,
@@ -546,7 +545,7 @@ net.train([
       Udon: 1
     },
     output: {
-      phoe: 0.2,
+      pho: 0.2,
       lasagne: 0,
       ramen: 0.2,
       spaghettiVeggie: 0,
@@ -566,7 +565,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
    {
     input: {
       Tomate: 1,
@@ -602,7 +601,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0,
       spaghettiVeggie: 0,
@@ -622,7 +621,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
 
    {
     input: {
@@ -659,7 +658,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0,
       spaghettiVeggie: 0,
@@ -679,7 +678,7 @@ net.train([
       pateboeuf: 0,
       fajitas: 0,
     }
-  }
+  },
 
    {
     input: {
@@ -716,7 +715,7 @@ net.train([
       Udon: 0
     },
     output: {
-      phoe: 0,
+      pho: 0,
       lasagne: 0,
       ramen: 0,
       spaghettiVeggie: 0,

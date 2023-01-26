@@ -1,7 +1,5 @@
 import React from 'react';
 import '../Lays.css';
-// import Nav from './Nav.js';
-// import Contact from '../Contact.js';
 
 const Test = ({setModifPage})=>{
 
