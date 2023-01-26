@@ -1,6 +1,6 @@
 import React from 'react';
 import './Lays.css';
-import Home from './Home.js';
+
 
 function Choix(){ 
  return(

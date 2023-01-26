@@ -1,7 +1,7 @@
 import React from 'react';
 import './Lays.css';
 import Nav from './component/Nav.js';
-import Home from './Home.js';
+
     
     const Contact= ({setModifPage,ModifPage}) => {
   
