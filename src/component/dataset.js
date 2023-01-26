@@ -1,5 +1,5 @@
 import * as brain from "brain.js";
-
+const RUNIA=(DATA)=>{
 var net = new brain.NeuralNetwork();
 
 net.train([
@@ -740,11 +740,8 @@ net.train([
 
 ]);
 
-var output = net.run({
-  poulet: 1,
-  bannane: 1,
-  radis: 0
-});
-
-
-//export default App;
+var output = net.run(DATA);
+console.log(output)
+return output
+}
+export default RUNIA;

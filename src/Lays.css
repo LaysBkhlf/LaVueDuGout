@@ -145,6 +145,10 @@ button{
     padding: 4px 0px 0px 0px;
     cursor: pointer; 
 }
+.RUNIA{
+    position :absolute;
+    pointer-events: all;
+}
 .send{
     width: 121px;
     height: 50px;
