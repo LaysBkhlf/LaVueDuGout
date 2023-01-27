@@ -92,7 +92,7 @@ const Page1 = () => {
               {CurrentIndex === 11 && <img className="aliment" src="MozzaParmesan.jpg"></img>}
               {CurrentIndex === 12 && <img className="aliment" src="TortillaPate.jpg"></img>}
               {CurrentIndex === 13 && <img className="aliment" src="NouilleRiz.jpg"></img>} 
-                <button className='RUNIA' onClick={()=>CallIA()}>run ia</button>
+                <button className='RUNIA' onClick={()=>CallIA()}>Génerer un plat</button>
 
 
         </div>
