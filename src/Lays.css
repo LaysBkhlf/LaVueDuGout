@@ -45,7 +45,6 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: -3%;
-    /* padding: auto; */
 }
 
 .sign {
@@ -230,25 +229,36 @@ button{
     justify-content: center;
 }
 
-/*PAGE CHOIX*/
 
-.pagechoix{
-    background: no-repeat url(/public/Frame52.jpg);
-    background-size: cover;
-    height: 100vH;
-    /* width: 100vw; */
-}
 .carre{
-    display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 10%;
     /* height: 30%; */
+    margin-left: 25%;
 
 }
 .casechoix{
     background-color: rgba(236, 236, 234, 0.15);
     border-radius: 8px;
     box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.5);
-    padding: 2% 4%;
+    width: 28%;
+    height: 10vh;
+    font-family: Rahem;
+    color: white;
+    font-size: 28px;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
 }
+.aliment{
+    position :absolute;
+    left: 0%;
+    top: 0%;
+
+}
+.casechoix:hover{
+    box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.767);
+    border: solid white 2px;
+}
+

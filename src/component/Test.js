@@ -82,7 +82,7 @@ function generateRandomValues() {
           une livraison pour vous régaler.</p>
       
         {/* <button className='valider' onClick={() => window.location.href='/choix.js'}>VALIDER</button> */}
-        <a className='valider' onClick={() => setModifPage("Choix")}>Valider</a>
+        <a className='valider' onClick={() => setModifPage("Page1")}>Valider</a>
 
 
       </section>

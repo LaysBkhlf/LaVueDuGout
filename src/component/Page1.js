@@ -1,6 +1,7 @@
 import React from "react";
 import RUNIA from "./dataset";
 
+
 const Page1 = () => {
     const [DATA, setDATA] = React.useState({
         Tomate: 0,
@@ -24,7 +25,7 @@ const Page1 = () => {
         Parmesan: 0,
         Pommedeterre: 0,
         Vinblanc: 0,
-        Broccolis: 0,
+        Brocolis: 0,
         Ail: 0,
         Tortillas: 0,
         Nouilles: 0,
@@ -70,15 +71,31 @@ const Page1 = () => {
 
    let DATAFROMIA = RUNIA(DATA);
 
-
   }
   return (
-    <div onClick={()=>CallIA()}>
-      {Left && <button onClick={() => Next(Left)}>{Left}</button>}
-      {Right && <button onClick={() => Next(Right)}>{Right}</button>}
-      {CurrentIndex === 0 && <h1>TESDTDEJECEJKFHE</h1>}
-      {CurrentIndex === 1 && <h1>U</h1>}
-    </div>
+    <section className='pagechoix'>
+      <div className='carre'>
+        <div onClick={()=>CallIA()}>
+              {Left && <button className="casechoix" onClick={() => Next(Left)}>{Left}</button>}
+              {Right && <button className="casechoix" onClick={() => Next(Right)}>{Right}</button>}
+              {CurrentIndex === 0 && <img className="aliment" src="TomateBrocoli.jpg"></img>}
+              {CurrentIndex === 1 && <img className="aliment" src="OignonCeleri.jpg"></img>}
+              {CurrentIndex === 2 && <img className="aliment" src="MaisCarotte.jpg"></img>}
+              {CurrentIndex === 3 && <img className="aliment" src="PouletCrevette.jpg"></img>}
+              {CurrentIndex === 4 && <img className="aliment" src="ChampignonPetitpois.jpg"></img>}
+              {CurrentIndex === 5 && <img className="aliment" src="OeufPdt.jpg"></img>}
+              {CurrentIndex === 6 && <img className="aliment" src="BoeufTofu.jpg"></img>}
+              {CurrentIndex === 7 && <img className="aliment" src="BasilicEpinard.jpg"></img>}
+              {CurrentIndex === 8 && <img className="aliment" src="BokchoyCourgette.jpg"></img>}
+              {CurrentIndex === 9 && <img className="aliment" src="SaucissePoivron.jpg"></img>}
+              {CurrentIndex === 10 && <img className="aliment" src="VinblancAil.jpg"></img>}
+              {CurrentIndex === 11 && <img className="aliment" src="MozzaParmesan.jpg"></img>}
+              {CurrentIndex === 12 && <img className="aliment" src="TortillaPate.jpg"></img>}
+              {CurrentIndex === 13 && <img className="aliment" src="NouilleRiz.jpg"></img>}
+
+        </div>
+      </div>
+    </section>
   );
 };
 
