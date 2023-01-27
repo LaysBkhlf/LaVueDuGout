@@ -75,7 +75,7 @@ const Page1 = () => {
   return (
     <section className='pagechoix'>
       <div className='carre'>
-        <div onClick={()=>CallIA()}>
+        <div >
               {Left && <button className="casechoix" onClick={() => Next(Left)}>{Left}</button>}
               {Right && <button className="casechoix" onClick={() => Next(Right)}>{Right}</button>}
               {CurrentIndex === 0 && <img className="aliment" src="TomateBrocoli.jpg"></img>}
@@ -91,7 +91,9 @@ const Page1 = () => {
               {CurrentIndex === 10 && <img className="aliment" src="VinblancAil.jpg"></img>}
               {CurrentIndex === 11 && <img className="aliment" src="MozzaParmesan.jpg"></img>}
               {CurrentIndex === 12 && <img className="aliment" src="TortillaPate.jpg"></img>}
-              {CurrentIndex === 13 && <img className="aliment" src="NouilleRiz.jpg"></img>}
+              {CurrentIndex === 13 && <img className="aliment" src="NouilleRiz.jpg"></img>} 
+                <button className='RUNIA' onClick={()=>CallIA()}>run ia</button>
+
 
         </div>
       </div>

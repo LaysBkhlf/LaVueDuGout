@@ -20,7 +20,7 @@ function Home(){
     
     <Nav setModifPage={setModifPage}></Nav>
 
-    {/* <button className='RUNIA' onClick={()=>{RUNIA()}}>run ia</button> */}
+    {/* {<button className='RUNIA' onClick={()=>{RUNIA()}}>run ia</button>} */}
     {ModifPage === "Home" && <Test setModifPage={setModifPage}></Test>}
     {ModifPage === "Contact" && <Contact setModifPage={setModifPage}></Contact>}
     {ModifPage === "Page1" && <Page1 setModifPage={setModifPage}></Page1>}
