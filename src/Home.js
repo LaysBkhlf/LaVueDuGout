@@ -5,6 +5,7 @@ import Contact from './Contact.js';
 import Test from './component/Test.js';
 import RUNIA from './component/dataset';
 import Page1 from './component/Page1.js';
+import Resultat from './Resultat.js';
 
 function Home(){ 
   const [Shape,setShape] = React.useState(0);

@@ -251,14 +251,21 @@ button{
     border: none;
     cursor: pointer;
 }
-.aliment{
-    position :absolute;
-    left: 0%;
-    top: 0%;
 
-}
 .casechoix:hover{
     box-shadow: inset 0 0 1em rgba(255, 255, 255, 0.767);
     border: solid white 2px;
 }
 
+.aliment{
+    /* position :absolute;
+    left: 0%;
+    top: 0%; */
+    background-position:right top;
+
+
+}
+/* .backgroundResultat{
+    background: no-repeat url(/public/fondresultat.jpg);
+
+} */
